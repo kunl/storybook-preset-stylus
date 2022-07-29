@@ -1,0 +1,51 @@
+{
+  "name": "storybook-preset-stylus",
+  "version": "1.0.0",
+  "description": "stylus preset for Storybook",
+  "main": "index.js",
+  "homepage": "https://github.com/kunl/storybook-preset-stylus",
+  "bugs": {
+    "url": "https://github.com/kunl/storybook-preset-stylus/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kunl/storybook-preset-stylus.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook -p 6009",
+    "debug:storybook": "DEBUG=storybook-preset-stylus yarn storybook",
+    "build-storybook": "build-storybook"
+  },
+  "keywords": [],
+  "author": "kunl",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.18.9",
+    "@storybook/addon-actions": "^6.5.9",
+    "@storybook/addon-essentials": "^6.5.9",
+    "@storybook/addon-interactions": "^6.5.9",
+    "@storybook/addon-links": "^6.5.9",
+    "@storybook/builder-webpack5": "^6.5.9",
+    "@storybook/manager-webpack5": "^6.5.9",
+    "@storybook/react": "^6.5.9",
+    "@storybook/testing-library": "^0.0.13",
+    "babel-loader": "^8.2.5",
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0"
+  },
+  "dependencies": {
+    "css-loader": "^6.7.1",
+    "style-loader": "^3.3.1",
+    "stylus": "^0.58.1",
+    "stylus-loader": "^7.0.0"
+  },
+  "peerDependencies": {
+    "css-loader": "*",
+    "style-loader": "*",
+    "stylus-loader": "*"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
