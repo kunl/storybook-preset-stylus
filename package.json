@@ -1,6 +1,6 @@
 {
   "name": "storybook-preset-stylus",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "stylus preset for Storybook",
   "main": "index.js",
   "files": [
@@ -21,7 +21,7 @@
     "debug:storybook": "DEBUG=storybook-preset-stylus yarn storybook",
     "build-storybook": "build-storybook"
   },
-  "keywords": [],
+  "keywords": ["storybook", "stylus", "preset"],
   "author": "kunl",
   "license": "MIT",
   "devDependencies": {
